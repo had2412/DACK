@@ -32,19 +32,25 @@ ActivityLoginBinding binding;
 
     private void setVariable() {
         binding.loginBtn.setOnClickListener(view -> {
-            String email=binding.userEdt.getText().toString();
-            String password=binding.passEdt.getText().toString();
-            if (!email.isEmpty() && !password.isEmpty()){
-                mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(LoginActivity.this, task -> {
-                    if(task.isSuccessful()){
+            String email = binding.userEdt.getText().toString();
+            String password = binding.passEdt.getText().toString();
+            if (!email.isEmpty() && !password.isEmpty()) {
+                mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(LoginActivity.this, task -> {
+                    if (task.isSuccessful()) {
                         startActivity(new Intent(LoginActivity.this, MainActivity.class));
-                    }else {
+                    } else {
                         Toast.makeText(LoginActivity.this, "Authentication failed", Toast.LENGTH_SHORT).show();
                     }
                 });
-            }else {
-                Toast.makeText(LoginActivity.this, "please fill username and password", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(LoginActivity.this, "Please fill username and password", Toast.LENGTH_SHORT).show();
             }
         });
+
+        // Thêm sự kiện cho textView7 (Forget Password?)
+        binding.textView7.setOnClickListener(view -> LoginActivity.this.startActivity(new Intent(LoginActivity.this, ForgotPasswordActivity.class)));
+        binding.textView9.setOnClickListener(view -> LoginActivity.this.startActivity(new Intent(LoginActivity.this, SignupActivity.class)));
     }
+
+
 }
