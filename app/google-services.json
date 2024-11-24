@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "797953184530",
+    "firebase_url": "https://frd-database-default-rtdb.firebaseio.com",
+    "project_id": "frd-database",
+    "storage_bucket": "frd-database.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797953184530:android:7284277fc1364d8d21d9cb",
+        "android_client_info": {
+          "package_name": "com.example.crud_frd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArmhFEE1vtoj-IYdmD1HJLL-gKO22bP-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797953184530:android:111485031fb7302e21d9cb",
+        "android_client_info": {
+          "package_name": "com.example.dack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArmhFEE1vtoj-IYdmD1HJLL-gKO22bP-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797953184530:android:9bdfd80caa27eb0e21d9cb",
+        "android_client_info": {
+          "package_name": "com.example.doancuoikyandroidstudio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArmhFEE1vtoj-IYdmD1HJLL-gKO22bP-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797953184530:android:e90026ec898ee8b121d9cb",
+        "android_client_info": {
+          "package_name": "com.example.frd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArmhFEE1vtoj-IYdmD1HJLL-gKO22bP-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
